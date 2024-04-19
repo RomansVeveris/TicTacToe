@@ -1,0 +1,63 @@
+Used chatGPT promts:
+- create a 3x3 layout grid with buttons in them
+- how to change button text value
+- any simple solution to block all 9 buttons after win/tie statement?
+-       if (buttonTextArray[0] == "X" && buttonTextArray[1] == "X" && buttonTextArray[2] == "X") {
+            if (player1Name != null) {
+                showWinDialog(player1Name)
+            }
+            return
+        } else if (buttonTextArray[3] == "X" && buttonTextArray[4] == "X" && buttonTextArray[5] == "X") {
+            showWinDialog("Player X")
+            return
+        } else if (buttonTextArray[6] == "X" && buttonTextArray[7] == "X" && buttonTextArray[8] == "X") {
+            showWinDialog("Player X")
+            return
+        } else if (buttonTextArray[0] == "X" && buttonTextArray[3] == "X" && buttonTextArray[6] == "X") {
+            showWinDialog("Player X")
+            return
+        } else if (buttonTextArray[1] == "X" && buttonTextArray[4] == "X" && buttonTextArray[7] == "X") {
+            showWinDialog("Player X")
+            return
+        } else if (buttonTextArray[2] == "X" && buttonTextArray[5] == "X" && buttonTextArray[8] == "X") {
+            showWinDialog("Player X")
+            return
+        } else if (buttonTextArray[0] == "X" && buttonTextArray[4] == "X" && buttonTextArray[8] == "X") {
+            showWinDialog("Player X")
+            return
+        } else if (buttonTextArray[2] == "X" && buttonTextArray[4] == "X" && buttonTextArray[6] == "X") {
+            showWinDialog("Player X")
+            return
+        } else if (buttonTextArray[0] == "O" && buttonTextArray[1] == "O" && buttonTextArray[2] == "O") {
+            showWinDialog("Player 0")
+            return
+        } else if (buttonTextArray[3] == "O" && buttonTextArray[4] == "O" && buttonTextArray[5] == "O") {
+            showWinDialog("Player 0")
+            return
+        } else if (buttonTextArray[6] == "O" && buttonTextArray[7] == "O" && buttonTextArray[8] == "O") {
+            showWinDialog("Player 0")
+            return
+        } else if (buttonTextArray[0] == "O" && buttonTextArray[3] == "O" && buttonTextArray[6] == "O") {
+            showWinDialog("Player 0")
+            return
+        } else if (buttonTextArray[1] == "O" && buttonTextArray[4] == "O" && buttonTextArray[7] == "O") {
+            showWinDialog("Player 0")
+            return
+        } else if (buttonTextArray[2] == "O" && buttonTextArray[5] == "O" && buttonTextArray[8] == "O") {
+            showWinDialog("Player 0")
+            return
+        } else if (buttonTextArray[0] == "O" && buttonTextArray[4] == "O" && buttonTextArray[8] == "O") {
+            showWinDialog("Player 0")
+            return
+        } else if (buttonTextArray[2] == "O" && buttonTextArray[4] == "O" && buttonTextArray[6] == "O") {
+            showWinDialog("Player 0")
+            return
+        } else if (checkForTie(buttonTextArray)) {
+            showTieDialog()
+            return
+        }
+- can u simplify this piece of code
+
+Used links:
+https://stackoverflow.com/questions/14393204/how-to-get-the-value-from-one-activity-to-another
+https://www.youtube.com/watch?v=NyUbptjoqb8
